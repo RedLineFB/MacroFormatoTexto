@@ -1,0 +1,14 @@
+Sub CambiarFormatoTexto()            'Creación de la macro
+    
+    Dim Celda As Object               'Declaración de las variables
+    Dim RangoCeldas As Range
+    
+    Set RangoCeldas = Range("A7: S31")  'Asignamos el rango que recorrerá en el for
+    
+    For Each Celda In RangoCeldas       'Bucle para recorrer las celdas
+         
+         Celda.NumberFormat = "@"       'Con Celda.NumberFormat = "@" transformará cada celda a texto
+         
+    Next Celda
+    
+End Sub
