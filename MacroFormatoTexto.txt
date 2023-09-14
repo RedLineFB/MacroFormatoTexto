@@ -1,4 +1,4 @@
-Sub CambiarFormatoTexto()            'Creación de la macro
+Sub CambiarFormatoTexto()            'Creación de la función
     
     Dim Celda As Object               'Declaración de las variables
     Dim RangoCeldas As Range
